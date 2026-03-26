@@ -1,0 +1,30 @@
+# ==================== Core Dependencies ====================
+# Configuration Management
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# ==================== LangChain & LLM ====================
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.1.0
+langchain-chroma>=0.1.0
+
+# ==================== Vector Store ====================
+chromadb>=0.4.0
+
+# ==================== PDF Processing ====================
+pymupdf>=1.23.0
+
+# ==================== Embeddings ====================
+sentence-transformers>=2.2.0
+
+# ==================== Search & Retrieval ====================
+rank-bm25>=0.2.0
+
+# ==================== MCP (Model Context Protocol) ====================
+mcp>=1.0.0
+
+# ==================== Data Sources ====================
+yfinance>=0.2.0
